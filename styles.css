@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-size;
+    background-color:black;
+  }
+  .navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:relative;
+  }
+  .navbar .menu{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+  }
+  ul{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+    list-style:none;
+  }
+  li{
+    padding:15px;
+    margin-left:20px;
+  }
+  a{
+    text-decoration:none;
+    color: gold;
+  }
+  .lang{
+    margin-right:40px;
+    padding:5px 30px;
+    border:2px solid gold;
+    border-radius: 20px;
+    font-size:18px;
+    font-weight:bold;
+    color:gold;
+  }
+  .body{
+    display: flex;
+  }
+  .left,.right {
+    flex-basis:50%;
+    margin:50px;
+  }
+  .title{
+    font-size:60px;
+    font-weight:bold;
+    line-height: 1.5;
+    color: white;
+  }
+  .title span{
+    color: gold;
+  }
+  .text{
+    padding: 10px;
+    letter-spacing: 1.7px;
+    color: white;
+    line-height: 1.5;
+  }
+  .btn{
+    margin:20px;
+    color: black;
+    width: fit-content;
+    padding: 10px 15px;
+    border:1px solid transparent;
+    border-radius: 20px;
+    background-color:orange;
+    letter-spacing:1.5px;
+    font-weight:bold;
+  }
+  .right{
+    margin:50px 0 0 200px;
+  }
+  .box{
+    display: inline-block ;
+    position:relative;
+    text-align:center;
+    margin:10px 5px 0 0;
+    padding: 15px 25px;
+    color:gold;
+    border:2px solid gold;
+    border-radius: 6px
+  }
+  .box span{
+    display:block;
+  }
