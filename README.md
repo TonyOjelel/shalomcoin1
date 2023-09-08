@@ -2,4 +2,4 @@
 https://tonyojelel.github.io/shalomcoin1/
 Digital currency
 #8721gf
-tn
+tn4
